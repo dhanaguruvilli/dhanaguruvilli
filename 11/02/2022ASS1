@@ -1,0 +1,36 @@
+Stu no=int(input('enter Stu no:'))
+Stu name=input('enter Stu name:')
+S1=int(input('s1 marks:'))
+S2=int(input('s2 marks:'))
+S3=int(input('s3 marks:'))
+S4=int(input('s4 marks:'))
+S5=int(input('s5 marks:'))
+S6=int(input('s6 marks:'))
+Total=S1+S2+S3+S4+S5+s6e
+Avg=total/3
+If avg>=91:
+   Print('O-grade')
+elif avg>=81:
+   Print('A-grade')
+elif avg>=71:
+   Print('B-grade')
+elif avg>=60:
+   Print('C- grade')
+elif avg>=50:
+   Print('D-grade')
+elif avg>=40:
+   Print('pass')
+else:
+   Print('fail')
+
+ OUT PUT:
+ 
+enter Stu no:13
+enter Stu name:Dhana lakshmi
+S1 marks=93
+S2 marks=92
+S3 marks=91
+S4 marks=94
+S5 marks=95
+S6 marks=96
+O-grade
