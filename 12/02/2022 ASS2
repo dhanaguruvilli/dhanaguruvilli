@@ -1,0 +1,17 @@
+a=int(input("enter number:"))
+b=int(input("enter number:"))
+if a==b:
+    print('a and b are equal')
+if a!=b:
+    print('a and b are not equal')
+if a>b:
+     print('a is greater')
+else:
+    print('b is greater')
+    
+    output
+    enter number:13
+    enter number:30
+    a and b are not equal
+    b is greater
+    
