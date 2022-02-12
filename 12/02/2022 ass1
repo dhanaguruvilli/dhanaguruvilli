@@ -1,0 +1,39 @@
+sug=100
+sal=200
+wht=100
+rc=300
+cho=50
+cname=input('enter customer name:')
+cphone=input('enter customer phn number:')
+sug=int(input('enter no.of sugar packets:'))
+sal=int(input('enter no.of salt packets:'))
+wht=int(input('enter no.of wheat packets:'))
+rc=ioutputnt(input('enter no.of rice packets:'))
+cho=int(input('enter no.of chocolate packets:'))
+bill=(sug*sugarq)+(sal*saltq)+(wht*wheatq)+(rc*riceq)+(cho*chocolateq)
+if bill>5000:
+    disc=bill*10/100
+    tax=bill*10/100
+elif bill>3000:
+    disc=bill*8/100
+    tax=bill*8/100
+elif bill>2000:
+    disc=bill*5/100
+    tax=bill*18/100
+elif bill>1000:
+    disc=bill*3/100
+    tax=bill*18/100
+else:
+    print('invalid')
+mainbill=bill-disc+tax
+print('bill amount:',mainbill)
+
+output
+enter customer name:dhana.c
+enter customer phn number:12345678
+enter no.of sugar packets:5
+enter no.of salt packets:8
+enter no.of wheat packets:4
+enter no.of rice packets:3
+enter no.of chocolate packets:10
+bill amount:3162.0
