@@ -1,0 +1,15 @@
+n=int(input('enter n value:'))
+sum=0
+total=0
+for i in range(1,n+1):
+    if i%2==1:
+       sum=sum+i
+    if i%2==0:
+       total=total+i
+print(sum)
+print(total)
+
+OUTPUT:
+enter n value:10
+25
+30
