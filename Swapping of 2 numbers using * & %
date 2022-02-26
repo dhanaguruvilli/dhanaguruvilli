@@ -1,0 +1,10 @@
+a=int(input("enter number a:"))
+b=int(input("enter number b:"))
+a=a*b 
+b=int(a/b)
+a=int(a/b)
+print(a," ",b)
+OUTPUT:
+enter number a:10 
+enter number b:20
+20   10
