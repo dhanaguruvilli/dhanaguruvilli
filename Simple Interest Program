@@ -1,0 +1,10 @@
+P=int(input('enter principal amount:'))
+T=int(input('enter total no.of yrs::'))
+R=float(input('enter rate of interest:'))
+SI=(P*T*R)/100
+print('Interested amount',SI)
+OUTPUT:
+enter principal amount:100000
+enter total no.of yrs::6
+enter rate of interest:3
+Interested amount 18000.0
