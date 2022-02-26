@@ -1,0 +1,17 @@
+n=int(input('enter number:'))
+num=n
+rev=0
+while n>0:
+    rem=n%10
+    rev=rev+rem*rem*rem
+    n=n//10
+if num==rev:
+     print('amstrong number')
+else:
+     print('not a amstrong  number')
+OUTPUT:
+enter number:371
+amstrong number
+OR: OUTPUT:
+enter number:451
+not a amstrong  number
