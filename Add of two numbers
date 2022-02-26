@@ -1,0 +1,8 @@
+a=int(input('Enter number:'))
+b=int(input('Enter num,ber:'))
+c=a+b 
+print('c',c)
+OUTPUT:
+Enter number:5
+Enter num,ber:6
+c 11
