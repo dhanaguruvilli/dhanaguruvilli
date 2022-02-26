@@ -1,0 +1,13 @@
+a=int(input("enter number a:"))
+b=int(input("enter number b:"))
+c=int(input("enter number c:"))
+a=a+b+c  
+b=a-(b+c)
+c=a-(b+c)
+a=a-(b+c)
+print(a,b,c)
+OUTPUT:
+enter number a:10
+enter number b:20
+enter number c:30
+30 10 20
