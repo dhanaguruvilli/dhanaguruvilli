@@ -1,0 +1,19 @@
+sno=int(input('enter student.no:'))
+sname=(input('enter student name:'))
+maths=int(input('maths marks:'))
+physics=int(input('ptysics marks:'))
+chem=int(input('chem marks:'))
+total=maths+physics+chem
+avg=total/3;
+print('sno:',sno,'sname:',sname,'maths:',maths,'physics:',physics,'chem:',chem)
+print('total:',total)
+print('Average marks:',avg)
+OUTPUT:
+enter student.no:13
+enter student name:dhana 
+maths marks:95
+ptysics marks:90
+chem marks:85
+sno: 13 sname: dhana maths: 95 physics: 90 chem: 85
+total: 270
+Average marks: 90.0
