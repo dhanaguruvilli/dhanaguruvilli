@@ -1,0 +1,13 @@
+E={12:['ESWAR','MANAGER',1998,150000],13:['DHANA','MANAGER',2002,100000],14:['CHIRU','SUPERVISOR',2002,95000]}
+x=int(input('enter the employee no:'))
+print('name of the employee:',E[x][0])
+print('desig:',E[x][1])
+print('doj',E[x][2])
+print('salary',E[x][3])
+
+output:
+enter the employee no:12
+name of the employee: ESWAR
+desig: MANAGER
+doj 1998
+salary 150000
