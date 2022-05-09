@@ -1,0 +1,5 @@
+d={'ESWAR':['MALE','MPCs','PASS'],'RADHA':['FEMALE','MPCs','PASS'],'CHIRU':['MALE','MPC','PASS']}
+d.pop('CHIRU')
+print(d)
+output:
+{'ESWAR': ['MALE', 'MPCs', 'PASS'], 'RADHA': ['FEMALE', 'MPCs', 'PASS']}
